@@ -1,0 +1,81 @@
+/*I don't know how long I am going to keep this header, I like the idea but I just can't make it look as good as I want.*/
+header{
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    height: 10%;
+    background-color: #006600;
+    border: thick solid #004d00;
+    text-align: center;
+}
+
+/*These are the stylings for the header tag, it's a glorified div class but it's just easier than making a new class to apply styles to this tag.*/
+nav{
+    position: absolute;
+    top: 9%;
+    left: 25%;
+    width: 50%;
+    height: 2%;
+    background-color: #004d00;
+    border: thick solid #004d00;
+    text-align: center;
+    font-weight: bold;
+}
+
+body{
+    background-color: black; /*Forces the background colour to be black, I want to add an image at some point.*/
+    font-family: 'Courier New', monospace; /*This forces the font to be this font unless stated, I like this font as it looks close to traditional ascii at smaller sizes.*/
+}
+
+/*This forces all of the text to be white, unless it is a link which has to be done through an attribute.*/
+p, h1, h2, h3, h4, h5, h6{
+    color: white;
+}
+
+/*This is the footer styling, the top attribute is not defined as it is done on the page to make the placement of it flexible.*/
+footer{
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 2%;
+    background-color: #004d00;
+    border: thick solid #004d00;
+    text-align: left;
+}
+
+/*This is purely defined for the table on the downloads page.*/
+table, td{
+    border: thin solid white;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*This is here just to make the HR tag look nice.*/
+hr{
+    width: 100%;
+    border: thin solid white;
+}
+
+/*This is styling only made for the email link on my contacts page*/
+address{
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+/*Doesn't change the colour of the links after being clicked*/
+a:visited {
+    color: white;
+  }
+
+/*This is a class made for the main part of the site where text and stuff goes.*/
+.main_body{
+    background-color: #008000;
+    border: thick solid #008000; /*If you remove this it will make the pages look un-alinged*/
+    width: 50%;
+    top: 12%;
+    position: absolute;
+    left: 25%;
+}
