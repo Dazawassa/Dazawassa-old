@@ -3,7 +3,7 @@
         <title>Downloads</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <link rel="shortcut icon" type="image/png" href="images/toothpaste2.png"/>
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
         <style>
             #mod_icon{ /*These are styles applied to tags with specified IDs, these are just to make the page look more organised and are thus local stylings.*/
                 float: right;
@@ -18,17 +18,14 @@
     </head>
 
     <body>
-        <header>
-            <h1 style="margin: 0; font-size: 72px; font-family: Helvetica, sans-serif; color: black;">Dazawassa's Website!</h1>
-        </header>
         <nav>
-            <p style="margin: 0;"><a style="color: white;" href="index.html">Home</a>
-                <a style="color: white;" href="#site_body">Downloads</a>
-                <a style="color: white;" href="link.html">Links</a>
-                <a style="color: white;" href="contact.html">Contact</a>
+            <p style="margin: 0;"><a id="link" href="index.html">Home</a>
+                <a id="link" href="#site_body">Downloads</a>
+                <a id="link" href="link.html">Links</a>
+                <a id="link" href="contact.html">Contact</a>
             </p>
         </nav> <!--This all does the header bit with the links and stuff-->
-        <div class="main_body" id="site_body">
+        <header>
             <h2 style="text-align: center;">Welcome to the downloads page!</h2>
             <br/>
             <p>below is a table where you can click on an icon which will then take you to that specified games section on this page.</p>
@@ -36,47 +33,47 @@
             <table> <!--This table contains an icon for the game and then a link to it, very basic with each tr being a different game in it.-->
                 <tr>
                     <td><img src="images/icons/doom.ico" alt="Doom 2" title="Doom 2" width="48px" height="48px"/></td>
-                    <td><a style="color: white;" href="#doom">Doom 2: Hell on Earth</a></td>
+                    <td><a id="link" href="#doom">Doom 2: Hell on Earth</a></td>
                 </tr>
                 <tr>
                     <td><img src="images/icons/gmod.ico" alt="Garry's Mod" title="garry's Mod" width="48px" height="48px"/></td>
-                    <td><a style="color: white;" href="#gmod">Garry's Mod</a></td>
+                    <td><a id="link" href="#gmod">Garry's Mod</a></td>
                 </tr>
                 <tr>
                     <td><img src="images/icons/gtasa.ico" alt="Grand Theft Auto: San Andreas" title="Grand Theft Auto: San Andreas" width="48px" height="48px"/></td>
-                    <td><a style="color: white;" href="#gtasa">Grand Theft Auto: San Andreas</a></td>
+                    <td><a id="link" href="#gtasa">Grand Theft Auto: San Andreas</a></td>
                 </tr>
                 <tr>
                     <td><img src="images/icons/hl.ico" alt="Half-Life" title="Half-Life" width="48px" height="48px"/></td>
-                    <td><a style="color: white;" href="#hl">Half-Life</a></td>
+                    <td><a id="link" href="#hl">Half-Life</a></td>
                 </tr>
                 <tr>
                     <td><img src="images/icons/halo1.ico" alt="halo Combat Evolved" title="Halo Combat Evolved" width="48px" height="48px"/></td>
-                    <td><a style="color: white;" href="#halo">Halo: Combat Evolved</a></td>
+                    <td><a id="link" href="#halo">Halo: Combat Evolved</a></td>
                 </tr>
                 <tr>
                     <td><img src="images/icons/hce.ico" alt="Halo Custom Edition" title="Halo Custom Edition"/></td>
-                    <td><a style="color: white;" href="#halo_custom_edition">Halo: Custom Edition</a></td>
+                    <td><a id="link" href="#halo_custom_edition">Halo: Custom Edition</a></td>
                 </tr>
                 <tr>
                     <td><img src="images/icons/postal2.ico" alt="Postal 2" title="postal 2" width="48px" height="48px"/></td>
-                    <td><a style="color: white;" href="#postal2">Postal 2</a></td>
+                    <td><a id="link" href="#postal2">Postal 2</a></td>
                 </tr>
                 <tr>
                     <td><img src="images/icons/ssfe.ico" alt="Serious Sam: First Encounter" title="Serious Sam: First Encounter" width="48px" height="48px"/></td>
-                    <td><a style="color: white;" href="#ssfe">Serious Sam: First Encounter</a></td>
+                    <td><a id="link" href="#ssfe">Serious Sam: First Encounter</a></td>
                 </tr>
                 <tr>
                     <td><img src="images/icons/ssfe.ico" alt="Serious Sam: Second Encounter" title="Serious Sam: Second Encounter" width="48px" height="48px"/></td>
-                    <td><a style="color: white;" href="#ssse">Serious Sam: Second Encounter</a></td>
+                    <td><a id="link" href="#ssse">Serious Sam: Second Encounter</a></td>
                 </tr>
                 <tr>
                     <td><img src="images/icons/transformers.ico" alt="Transformers the game" title="Transformers the game" width="48px" height="48px"/></td>
-                    <td><a style="color: white;" href="#transformers">Transformers: The game</a></td>
+                    <td><a id="link" href="#transformers">Transformers: The game</a></td>
                 </tr>
                 <tr>
                     <td><img src="images/icons/vic2.ico" alt="Victoria 2" title="Victoria 2" width="48px" height="48px"/></td>
-                    <td><a style="color: white;" href="#vic2">Victoria 2</a></td>
+                    <td><a id="link" href="#vic2">Victoria 2</a></td>
                 </tr>
             </table>
             <br/> <!--After this break are games that are listed above, it will be the title, followed by a hr tag and then text about the mods and links to them.-->
@@ -92,8 +89,9 @@
             <p id="mod_desc">This is a mod that gives you the minion gun, This weapon shoots minions at fast speed that make extremely loud noises and will instantly kill anything they touch.</p> <!--This is where those ID stylings come in.-->
             <br style="margin: 20px;"/>
             <h2 style="text-align: center;">Download:</h2>
-            <h3 style="text-align: center;"><a style="color: white;" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2410666390">Steam WorkShop</h3> 
-            </a><h3 style="text-align: center;"><a style="color: white;" href="https://www.moddb.com/games/garrys-mod-10/addons/minion-gun">ModDB</a></h3>
+            <h3 style="text-align: center;"><a id="link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2410666390">Steam WorkShop</h3> 
+            </a><h3 style="text-align: center;"><a id="link" href="https://www.moddb.com/games/garrys-mod-10/addons/minion-gun">ModDB</a></h3>
+            </a><h3 style="text-align: center;"><a id="link" href="https://github.com/ToothpasteHair/Minion-Gun">Source</a></h3>
             <br/>
 
             <h2 style="text-align: center;" id="gtasa">grand Theft Auto: San Andreas</h2>
@@ -140,9 +138,9 @@
             <hr/>
             <p>There are currently no mods linked here, however I have developed for this game in the past and thus I will probably post a mod here soon.</p>
             <br/>
-        </div>
-        <footer style="bottom: -207%;"> <!--This is the footer of the page.-->
-            <h6 style="margin: 0; bottom: -100%;">2021 - 2021</h6>
+        </header>
+        <footer style="bottom: -183%;"> <!--This is the footer of the page.-->
+            <h6 style="margin: 0;">2021 - 2021<br>Developed using <a id="link" href="https://www.waterfox.net/">WaterFox</a> on a 1920X1080 Monitor.</h6>
         </footer>
     </body>
 </html>
