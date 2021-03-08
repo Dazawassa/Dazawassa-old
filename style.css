@@ -17,6 +17,8 @@ body{
     background-attachment: fixed;
     background-size: 100% 100%; /*These 3 declarations set the background to not repeat and to fill the entire screen.*/
     font-family: 'Courier New', monospace; /*This forces the font to be this font unless stated, I like this font as it looks close to traditional ascii at smaller sizes.*/
+    animation-name: fade;
+    animation-duration: 2s;
 }
 
 /*This forces all of the text to be white, unless it is a link which has to be done through an attribute.*/
@@ -79,3 +81,9 @@ header{
 #link{
     color: black;
 }
+
+/*This is the animation that does the fade in effect on each page.*/
+@keyframes fade {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+  }
